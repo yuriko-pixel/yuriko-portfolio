@@ -42,15 +42,15 @@ const Language = {
     blackjack: "BlackJack",
     hi: "Hi!",
     lang: "日本語",
-    MunchifyDisc: "Machine learning predicts your perfect restaurant!",
-    MunchifyTech: "React-Native, NodeJS, MongoDB",
-    MunchifyTitle: "Munchify!",
-    SecretDisc: "A safety box for your secrets!",
-    SecretTech: "React, NodeJS, MongoDB",
-    SecretTitle: "The Secret Box",
-    RecipesDisc: "Sort out your hunger!",
-    RecipesTech: "React, PWA, Netlify",
-    RecipesTitle: "Otto's Recipes",
+    MunchifyDisc: "This is a magical todo task management app called Magical Meminisse which of the name based on Latin for memorizing.",
+    MunchifyTech: "React, Redux, Styled-components",
+    MunchifyTitle: "magical-meminissee!",
+    SecretDisc: "Find all original pokemon!",
+    SecretTech: "React, Redux",
+    SecretTitle: "Pokedex",
+    RecipesDisc: "Simulate the classic Simon Electronic Memory Game.",
+    RecipesTech: "HTML, CSS, Javascript",
+    RecipesTitle: "Simon-Game",
   },
 };
 
@@ -149,7 +149,7 @@ function Home(props) {
         <Right>
           <Box
             onClick={() =>
-              change("https://github.com/Spring-CC/restaurant-native-app")
+              change("https://github.com/yuriko-pixel/Magical_Meminisse")
             }
           >
             <HomeImage src={Munchify} alt="Technical Skills" />
@@ -159,7 +159,7 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].MunchifyTech}</Para>
           </Box>
-          <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
+          <Box onClick={() => change("https://github.com/yuriko-pixel/react-pokedex")}>
             <HomeImage src={Secret} alt="Technical Skills" />
             <InnerBox>
               <h3>{Language[lang].SecretTitle}</h3>
@@ -168,7 +168,7 @@ function Home(props) {
             <Para>{Language[lang].SecretTech}</Para>
           </Box>
           <Box
-            onClick={() => change("https://github.com/ottotsuma/React-App2")}
+            onClick={() => change("https://github.com/yuriko-pixel/simon-game")}
           >
             <HomeImage src={Food} alt="Technical Skills" />
             <InnerBox>
