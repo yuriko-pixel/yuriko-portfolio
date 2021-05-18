@@ -17,7 +17,7 @@ import Spin from "./spinn";
 
 const Language = {
   ja: {
-    name: "ダラー・ショーン",
+    name: "ダラー・由里子",
     projects: "プロジェクト",
     experience: "経験",
     tech: "技術的なスキル",
@@ -35,7 +35,7 @@ const Language = {
     RecipesTitle: "夫のレシピ",
   },
   en: {
-    name: "Shaun Darragh",
+    name: "Yuriko Darragh",
     projects: "Projects",
     experience: "Experience",
     tech: "Technical Skills",
@@ -85,7 +85,7 @@ function Home(props) {
             <Video />
             <HiWrapper>
               <ProfileImage
-                src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
+                src="https://www.wantedly.com/users/149028625/avatar?h=500&t=1620354037&w=500"
                 alt="Profile"
               />
               <Hi>{Language[lang].hi}</Hi>
@@ -102,7 +102,7 @@ function Home(props) {
                 src="https://image.flaticon.com/icons/png/512/25/25231.png"
                 alt=" "
               />
-              <AStyled href="https://github.com/ottotsuma" target="_blank">
+              <AStyled href="https://github.com/yuriko-pixel" target="_blank">
                 GitHub
               </AStyled>
             </Linkey>
