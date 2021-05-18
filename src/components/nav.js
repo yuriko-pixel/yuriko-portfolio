@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import styled from 'styled-components'
+import {colors} from './color'
 
 function Nav() {
   return (
@@ -25,14 +26,14 @@ export default Nav;
 const AStyled = styled.a`
 color: white;
 &:hover {
-    color: orange;
+    color: ${colors.blue};
 }
 `;
 
 const LinkStyled = styled(Link)`
 color: white;
 &:hover {
-    color: orange;
+    color: ${colors.blue};
 }
 `;
 
@@ -43,6 +44,6 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 padding: 1vh;
-background: #0d89eb;
+background: ${colors.pink};
 z-index: 1;
 `

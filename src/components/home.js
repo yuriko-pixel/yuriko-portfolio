@@ -14,6 +14,7 @@ import Tech from "./tech";
 import Modal2 from "./elements/modal2";
 import Timeline from "./timeline";
 import Spin from "./spinn";
+import {colors} from './color'
 
 const Language = {
   ja: {
@@ -200,7 +201,7 @@ border-color: black;
 
 margin-top: 10px;
 color: white;
-background: #0d89eb;
+background: ${colors.blue};
 display: flex;
 justify-content: center;
 align-items: center;
@@ -208,7 +209,7 @@ width: 53%;
 cursor: pointer;
 white-space: nowrap;
 &:hover {
-    background: #2CA8FF;
+    background: ${colors.lightBlue};
 }
 @media screen and (max-width: 650px) {
   padding 0 10px;
@@ -233,7 +234,7 @@ const HiWrapper = styled.div`
     max-height: 50%; /* important */
     bottom: 90%;
     opacity: 1;
-    background: #0d89eb;
+    background: ${colors.blue};
   }
 `;
 
@@ -241,38 +242,38 @@ const HiWrapper = styled.div`
 const Link2 = styled.div`
   // fake link!
   color: black;
-  // background: #0d89eb;
+  // background: ${colors.blue};
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   &:hover {
-    background: #2ca8ff;
+    background: ${colors.pink};
   }
   text-decoration: underline;
 `;
 
 const AStyled = styled.a`
   color: black;
-  // background: #0d89eb;
+  // background: ${colors.blue};
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   &:hover {
-    background: #2ca8ff;
+    background: ${colors.pink};
   }
 `;
 
 const LinkStyled = styled(Link)`
   color: black;
-  // background: #0d89eb;
+  // background: ${colors.blue};
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   &:hover {
-    background: #2ca8ff;
+    background: ${colors.pink};
   }
 `;
 
@@ -285,7 +286,7 @@ border-color: black;
 
 
 color: white;
-background: #0d89eb;
+background: ${colors.blue};
 display: flex;
 justify-content: center;
 align-items: center;
@@ -294,7 +295,7 @@ height: 10%;
 cursor: pointer;
 white-space: nowrap;
 &:hover {
-    background: #2CA8FF;
+    background: ${colors.lightBlue};
 }
   padding 0 10px;
 `;
@@ -414,11 +415,11 @@ const Glass = styled.div`
 `;
 
 const Circle1 = styled.div`
-  background: linear-gradient(
-    0deg,
-    rgba(255, 0, 221, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(255, 0, 221, 0.7),
+  //   rgba(255, 255, 255, 0.3)
+  // );
   position: absolute;
   width: 10rem;
   height: 10rem;
@@ -433,11 +434,11 @@ const Circle1 = styled.div`
 `;
 
 const Circle2 = styled.div`
-  background: linear-gradient(
-    0deg,
-    rgba(255, 0, 221, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(255, 0, 221, 0.7),
+  //   rgba(255, 255, 255, 0.3)
+  // );
   position: absolute;
   width: 10rem;
   height: 10rem;
